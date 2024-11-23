@@ -123,8 +123,8 @@ fun Counter(duration: Period?, counterLabel: String) {
                         text = counterLabel,
                         fontFamily = FontFamily.Serif,
                         color = Color(color),
-                        fontSize = 25.sp,
-//                        fontSize = 45.sp,
+//                        fontSize = 25.sp,
+                        fontSize = 45.sp,
                         modifier = Modifier
                     )
                     CounterDetail(
@@ -175,8 +175,8 @@ fun CounterDetail(text: String) {
         text = text,
         fontFamily = FontFamily.Serif,
         color = Color(color),
-        fontSize = 20.sp,
-//        fontSize = 35.sp,
+//        fontSize = 20.sp,
+        fontSize = 35.sp,
         modifier = Modifier
     )
 }
